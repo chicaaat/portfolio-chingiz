@@ -1,0 +1,36 @@
+.App {
+  min-height: 100vh; /* Минимальная высота на весь экран */
+  background-image: url('https://images.unsplash.com/photo-1516735034935-5578e9f2f04d'); 
+  background-size: cover; /* Фон будет покрывать весь экран */
+  background-position: center; /* Центрирование фона */
+  background-repeat: no-repeat; /* Фон не повторяется */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Начинаем размещение элементов сверху */
+  color: white; /* Цвет текста по умолчанию */
+}
+
+nav {
+  background-image: url('https://img.freepik.com/free-vector/realistic-luxury-background_23-2149354608.jpg');
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none; 
+  padding: 0; 
+  display: flex;
+  justify-content: center; 
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: white; 
+  text-decoration: none; 
+}
+
+nav a:hover {
+  text-decoration: underline; 
+}
